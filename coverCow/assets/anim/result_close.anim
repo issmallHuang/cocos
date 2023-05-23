@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "result_close",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.21666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0.4,
+            "y": 0.4,
+            "z": 0.184
+          }
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0.184
+          }
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.21666666666666667,
+      "func": "closeAnim",
+      "params": []
+    }
+  ]
+}
